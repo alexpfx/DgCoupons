@@ -5,6 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.alexpfx.dgcoupons.Coupons">
+    tools:context="br.com.alexpfx.dgcoupons.CouponsActivity">
+    <fragment
+        android:id="@+id/coupons_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:name="br.com.alexpfx.dgcoupons.CouponsFragment"/>
+
 
 </android.support.constraint.ConstraintLayout>
